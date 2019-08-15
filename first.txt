@@ -1,0 +1,216 @@
+PREFACE
+
+This project has specially been prepared for the partial fulfillment of practical
+examination jointly held by Higher Secondary Education Board (HSEB), Nepal &amp;
+Department of Computer Science (Sainik Awasiya Mahavidhyalaya) for HSEB
+Board Examination 2075 BS (2018 AD). This computer project is a result of my
+experience, knowledge, dedication, consultation with computer science experts and
+teachers, and references to quality books and websites.
+
+Learning Hypertext Markup Language (HTML) and Extensible Hypertext Markup
+Language (XHTML) is like learning any new language, computer or human. Most
+students first immerse themselves in examples. Studying others is a natural way to
+learn, making learning easy and fun. Our advice to anyone wanting to learn HTML
+and XHTML is to get out there on the World Wide Web with a suitable browser
+and see for yourself what looks good, what&#39;s effective, what works for you.
+Examine others&#39; documents and ponder the possibilities. Mimicry is how many of
+the current webmasters have learned the language.
+Imitation can take you only so far, though. Examples can be both good and bad.
+Learning by example will help you talk the talk, but not walk the walk. To become
+truly conversant, you must learn how to use the language appropriately in many
+different situations. You could learn all that by example, if you live long enough.
+
+“The theory without practical is lame and practical without theory is blind.” So, I
+have prepared this project in simple way including all the necessary features
+accomplished by me to show my prosperity on basic knowledge of Computer
+Science. This project includes topics related to Webpage Designing. As there is a
+quite popular saying, “a picture speaks more than a word”, I have tried my best to
+express theories using images and screenshots
+
+Acknowledge
+
+The success and final outcomes of this project required a lot of guidance and
+assistance from many people and I am extremely privileged to have got this all
+along the completion of my project. All that I have done is only due to such
+supervision and assistance and I would not forget to thank them.
+ 
+I respect and thank Mr. SATYA RAM SUWAL, for providing me an opportunity
+to do the project work in SAMB and giving us all supports and guidance which
+made me complete the project duly. I am extremely thankful to him for providing
+such a nice support and guidance, although he had busy schedule managing the
+corporate affairs.
+ 
+I owe my deep gratitude to our project guide MR. NABIN MASKEY, who took
+keen interest on our project work and guided us all along, till the completion of our
+project work by providing all the necessary information for developing a good
+system.
+ 
+I am thankful to and fortunate enough to get constant encouragement, support and
+guidance from all Teaching staffs of Department OF Computer Science which
+helped us in successfully completing our project work. Also, I would like to extend
+our sincere esteems to all staff in laboratory for their timely support.
+
+ ISHWAR KC
+Objective
+
+The primary goal of the practical in Computer Science is to provide students
+the foundations for future work and careers in computation-based problem solving.
+
+
+A computer science education should provide students the tool and knowledge to
+solve problems, this is first and foremost.
+
+Yes, a college education is meant to do just that but anytime a student declares a
+major, this student will be going down a path that will be most constructive for
+their chosen industry
+
+Computer science is a very broad field. It is considered a subset of mathematics
+and like mathematics, it is broad enough that a computer science PhD could talk
+about something in one topic that another computer science PhD would be lost in.
+
+The goals of the computer and information sciences department are to prepare
+students for graduate training in some specialized area of computer science, to
+prepare students for jobs in industry, business or government, and to provide
+support courses for students in engineering, mathematics and other fields requiring
+computing skills.
+
+Our courses offer a broad base so that students who end their studies with the plus
+2 degree can continue to acquire new skills and advance in an always-evolving
+professional workplace. We accomplish these goals by placing our computer
+science program in the context of the curriculum requirements of the NEB.
+Table Of Content
+
+S.N TOPICS PAGE NO
+1 INTRODUCTION 1-2
+2 START UP 3-6
+3 HOME PAGE 7-11
+4 FEATURE PAGE 12-25
+5 EXCHANGE PAGE 26-28
+6 LOGIN PAGE 29-37
+7 CONCLUSION 38
+
+6 | COMPUTER SCIENCE REPORT
+INTRODUCTION
+
+HTML (Hyper Text Markup Language) is text markup language used to create
+HTML documents (Web Pages) for The Internet. HTML is a set of logical codes or
+tags (markup) that are used to define the Web browser how to present the
+information in the Web page.
+It can be applied and embedded in the text to add formatting, linking that constitute
+the appearance of the Web documents and the information. It is interpreted by the
+Web browser. The Web browser is software that runs on the Web client (user
+computer ) and it interprets HTML tags to display the contents of the Web page.
+HTML is platform independent language. It is not a programming language like C,
+C++, java and BASIC.
+Basically, it is a set of markup tags that tells the browser how to display the Web
+page content.
+Some popular markup languages are DHTML, SGML (Standard Generalized
+Markup Language), XHTML (Extended HTML),XML (Extensible Markup
+Language), etc.
+
+7 | COMPUTER SCIENCE REPORT
+Tim Berners Lee developed HTML in 1990, at CERN (Conseil European pour la
+Recherche Nucleaire ), the European Particle Physics Laboratory in Geneva,
+Switzerland.
+There are different versions of HTML; these are HTML, HTML+, HTML 1.0,
+HTML 2.0, HTML 3.2, HTML 4.01 (It has accessibility of Cascading Style sheet,
+and Multimedia) and now HTML 5.0 ( It has accessibility of local storage and
+offline database).
+
+Uses of HTML
+
+1. It is used for basic layout creating or designing the Web page.
+2. Without HTML, the World Wide Web will not exist.
+3. It allows embedding text, image, multimedia (audio / video) and links to
+other documents and the Web pages.
+4. It provides a means to create structured document by using paragraph,
+character formatting, links and lists.
+5. It can embed scripts such as CSS, JavaScript, which affect the behavior and
+design of the Web page.
+Advantages of using HTML
+
+1. It is highly flexible and user-friendly.
+2. It is an open technology that supports almost all the Web browser and
+platforms like MS-Windows, Macintosh, UNIS, etc.
+3. It is efficient and reliable. You can create the Web page in order to advertise
+and promote products and services.
+4. It is easily understandable and does not require long time training.
+5. It provides search engine compatible to the Web sites.
+
+8 | COMPUTER SCIENCE REPORT
+
+9 | COMPUTER SCIENCE REPORT
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Gadgets&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+*{
+margin: 0px;
+padding: 0px;
+font-family: monospace;
+}
+body{
+background-image:url(&quot;112.jpg&quot;);
+}
+.navbar{
+text-align:center;
+width:100%;
+background-color:grey;
+height:80px;
+line-height: 80px;
+position: fixed;
+}
+.navbar ul{
+float: right;
+margin-right: 30px;
+}
+.navbar ul li{
+list-style:none;
+display: inline-block;
+transition: 0.8s;
+}
+.navbar ul li:hover{
+background-color: grey;
+border-radius: 20px;
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+padding: 30px;
+}
+.navbar input[type=&quot;text&quot;],
+
+10 | COMPUTER SCIENCE REPORT
+.navbar input[type=&quot;submit&quot;]{
+background: transparent;
+outline: none;
+border: none;
+color: white;
+}
+.navbar input[type=&quot;submit&quot;]:hover{
+background-color:orange;
+trasition:0.9s;
+border-radius: 15px;
+}
+p{
+color:white;
+float:left;
+font-size: 40px;
+}
+.image{
+float: right;
+padding: 100px 30px;
+}
+.next{
+float: left;
+padding: 100px 30px
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&quot;navbar&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;about.html&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;IK.html&quot;&gt;Exchange&lt;/a&gt;&lt;/li&gt;

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<style type="text/css">
+	body{ margin: 0;font-family:Verdana;font-size: 20px;}
+
+		ul ,li{list-style: none;margin: 0;outline: 0;padding:0;width: 300px;height: 300px;}
+		ul li{list-style: none;}
+		ul li ul li {display: none;}
+		 ul li:hover >ul li{display: block;}
+		 
+
+		 .section{width: 300px;height: 300px;background-color: green;}
+
+		 td:nth-child(7),td:nth-child(8),td:nth-child(9),td:nth-child(11){display: none;}
+		 td:nth-child(2){width: 30px;}
+		 .topic{position: absolute;top:250px;background-color: silver;width: 300px;height: 50px;opacity: 0.5;padding-left:  10px;font-size: 18px;}
+	</style>
+
+	<script type="text/javascript">
+function first()
+{
+document.home_img.src="images/home1.jpg"
+var c=setTimeout("second()",2000)
+}
+
+function second()
+{
+document.home_img.src="images/home2.jpg"
+var c=setTimeout("third()",2000)
+}
+
+function third()
+{
+document.home_img.src="images/home3.jpg"
+var c=setTimeout("fourth()",2000)
+}
+
+function fourth()
+{
+document.home_img.src="images/home4.jpg"
+var c=setTimeout("fifth()",2000)
+}
+
+function fifth()
+{
+document.home_img.src="images/home5.jpg"
+var c=setTimeout("first()",2000)
+}
+</script>
+</head>
+
+<body bgcolor="white" onload="frst()" style="">
+	
+	<div style="height: 750px;width: 1350px;margin: 0;outline: none;background-image: url(images/logo2.jpg);background-size: cover;background-position: 0 px;">
+	<!--	<span style="position: relative;left: 10px;top: 450px;color: white;">HEY! WE ARE HERE    __</span>-->
+		<span style="position: relative;left: 20px;top: 520px;color: crimson;font-size: 70px;font-family: Algerian">FCB NEPAL</span>
+		<div style="position: relative;width: 130px;height:40px;left: 30px;background-color: white;top:510px;padding-top: 14px;padding-left: 40px;border-radius: 10px;">
+			<a href="#"><a href="create_account.html" style="text-decoration: none;"> <b>Join Us!</b></a></a></li>
+</div>
+		
+
+</div>
+
+<!--starting of main division-->
+<div class="main_div" style="position: absolute;left: 185px;top: 780px;width: 627px;height: 2590px;">
+
+	<!--Starting of news_body-->
+	<div class="news_body" style="width: 100%; height: 410px;">
+		<div class="title" id="news_title" style="background-color: darkgray;width: 100%;height: 50px;border-radius: 20px;padding-left: 10px;padding-top: 18px;">
+			News
+		</div>
+		<p></p>
+
+				<!--for picture1-->	
+		<ul>
+		   <li>
+			    <div class="section" style="position: absolute;"><img src="images/news/1.jpg" width="300" height="300">
+			       <div class="topic">FOOTBALL
+					Barça - Roma and the international break
+					</div>
+		        </div>
+		     <ul>
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: silver;position: relative;opacity: 0.5;">	
+		          	<div style="padding: 3px;padding-left: 20px;"><p>FOOTBALL<p>
+						Barça - Roma and the international break
+						Various players from the two sides, who meet on April 4 in the Champions League.
+					</div>
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture1-->
+
+		<!--for picture2-->	
+		<ul style="position: relative;top:-300px;left: 320px;">
+		   <li>
+			    <div class="section" ><img src="images/news/2.jpg" width="300" height="300">
+			       <div class="topic">FOOTBALL-
+Mixed Emotions for  Barca with International
+</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: red;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture2-->
+
+		<p></p>
+		<div style="background-color: blue;width: 300px;height: 50px;"> </div>
+	</div><!--end of news_body-->
+
+	<!--Starting of laliga_body-->
+	<div class="laliga_body" style="width: 100%; height: 740px;">
+		<div class="title" id="laliga_title" style="background-color: darkgray;width: 100%;height: 50px;border-radius: 20px;padding-left: 10px;padding-top: 18px;">Laliga</div>
+			<ul>
+				<li>
+
+<!--starting of picture1-->
+	 <div class="section" id="laliga_table_section" style=" color: black;background-color: gray;">
+	 	<P></P>
+			<h3 style="text-align: center;">LaLiga 2017/18</h3>
+
+			<div style="line-height: 2px;position: relative;left: 24px;top: 20px;width: 200px;">
+			    <p>Team &nbsp &nbsp &nbsp &nbsp &nbsp :</p> 
+			    <p>Game Played:</p> 
+			    <p>Wins &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp   :</p> 
+			    <p>Draw &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   :</p> 
+			    <p>Lose &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp :</p> 
+			    <p>Points &nbsp &nbsp &nbsp &nbsp&nbsp  :</p> 
+			    <p>Last 6 &nbsp &nbsp &nbsp &nbsp&nbsp  :</p>
+				</div>
+			<div style="line-height: 2px;position: relative;left: 170px;top: -135px;width: 130px;">
+					<p>Barcelona</p> <p>28</p> <p>22</p> <p>6</p> <p>0</p> <p>72(Leading)</p> <p>DWWDWW</p>  		
+			</div>
+	  </div>	    
+
+		<ul>
+			<li style="width: 300px;height: 300px;position: relative;top: -300px;overflow: hidden;display: hidden;">
+		<table  style=" empty-cells: show; width: 300px;height:300px;font-size: 10px;background-color: white;border: none;border-collapse: collapse;overflow: hidden;">
+			<tr>
+				<td colspan="11" style="background-color: midnightblue;width: 100%;height: 20px;text-align: center;color: lightyellow;">Spanish La Liga 2017/18</td>
+			</tr>
+			<tr style="color: gray;">
+				<td> #</td>
+				<td> Team</td>
+				<td> Pl</td>
+				<td>W </td>
+				<td> D</td>
+				<td> L</td>
+				<td> F</td>
+				<td> A</td>
+				<td>GD </td>
+				<td>Pts </td>
+				<td>Last 6 </td>
+			</tr>
+
+			<tr>
+				<td>1 </td>
+				<td> Barcelona</td>
+				<td> 28</td>
+				<td> 22</td>
+				<td> 6</td>
+				<td> 0</td>
+				<td> 72</td>
+				<td> 13</td>
+				<td> 59</td>
+				<td> 72</td>
+				<td>DWWDWW </td>
+			</tr>
+
+			<tr>
+				<td> 2</td>
+				<td>Athletico Madrid </td>
+				<td> 28</td>
+				<td> 19</td>
+				<td> 7</td>
+				<td> 2</td>
+				<td> 48</td>
+				<td> 12</td>
+				<td> 36</td>
+				<td> 64</td>
+				<td>WWWWLW </td>
+			</tr>
+
+			<tr>
+				<td> 3</td>
+				<td>Valencia </td>
+				<td> 29</td>
+				<td> 18</td>
+				<td> 5</td>
+				<td>6 </td>
+				<td> 57</td>
+				<td> 31</td>
+				<td> 25</td>
+				<td> 59</td>
+				<td> WWDWWW</td>
+			</tr>
+
+			<tr>
+				<td> 4</td>
+				<td> Real Madrid</td>
+				<td> 28</td>
+				<td> 17</td>
+				<td> 6</td>
+				<td> 5</td>
+				<td> 67</td>
+				<td> 30</td>
+				<td> 37</td>
+				<td> 57</td>
+				<td> WWWLWW</td>
+			</tr>
+
+			<tr>
+				<td> 5</td>
+				<td> Sevilla</td>
+				<td> 28</td>
+				<td> 14</td>
+				<td> 3</td>
+				<td> 11</td>
+				<td> 36</td>
+				<td> 42</td>
+				<td> -6</td>
+				<td> 45</td>
+				<td>WWLWWL </td>
+			</tr>
+
+			<tr>
+				<td> 6</td>
+				<td> Villarreal</td>
+				<td> 28</td>
+				<td> 13</td>
+				<td> 5</td>
+				<td> 10</td>
+				<td> 38</td>
+				<td> 32</td>
+				<td> 6</td>
+				<td> 44</td>
+				<td>LDWLLW </td>
+			</tr>
+
+			<tr>
+				<td> 7</td>
+				<td> Girona</td>
+				<td> 28</td>
+				<td> 12</td>
+				<td> 7</td>
+				<td> 9</td>
+				<td> 40</td>
+				<td> 36</td>
+				<td> 4</td>
+				<td> 43</td>
+				<td>WLLWWW </td>
+			</tr>
+
+
+<tr>
+				<td>8 </td>
+				<td> Real Betis</td>
+				<td> 29</td>
+				<td> 13</td>
+				<td> 4</td>
+				<td> 12</td>
+				<td> 49</td>
+				<td> 53</td>
+				<td> -4</td>
+				<td> 43</td>
+				<td>WLWDLW </td>
+			</tr>
+
+			<tr>
+				<td> 9</td>
+				<td> Getafe</td>
+				<td> 29</td>
+				<td> 10</td>
+				<td> 9</td>
+				<td> 10</td>
+				<td> 35</td>
+				<td> 27</td>
+				<td> 8</td>
+				<td> 39</td>
+				<td> WLWLLW</td>
+			</tr>
+
+			<tr>
+				<td>10 </td>
+				<td> Eibar</td>
+				<td> 29</td>
+				<td> 11</td>
+				<td> 6</td>
+				<td> 12</td>
+				<td> 36</td>
+				<td> 43</td>
+				<td> -7</td>
+				<td> 39</td>
+				<td>LLWDLL </td>
+			</tr>
+
+			<tr>
+				<td> 11</td>
+				<td>Celta Vigo </td>
+				<td> 28</td>
+				<td> 11</td>
+				<td> 5</td>
+				<td> 12</td>
+				<td> 45</td>
+				<td> 42</td>
+				<td> 3</td>
+				<td>38 </td>
+				<td> DLWLWL</td>
+			</tr>
+
+<tr>
+				<td> 12</td>
+				<td> Athletic Bilbao</td>
+				<td> 28</td>
+				<td> 8</td>
+				<td> 11</td>
+				<td> 9</td>
+				<td> 29</td>
+				<td> 31</td>
+				<td> -2</td>
+				<td> 35</td>
+				<td>DLWDLW </td>
+			</tr>
+
+			<tr>
+				<td> 13</td>
+				<td> Espanyol</td>
+				<td> 29</td>
+				<td> 8</td>
+				<td> 11</td>
+				<td> 10</td>
+				<td> 26</td>
+				<td> 37</td>
+				<td> -11</td>
+				<td> 35</td>
+				<td> DDDWDW</td>
+			</tr>
+
+			<tr>
+				<td> 14</td>
+				<td> Real Sociedad</td>
+				<td> 29</td>
+				<td> 9</td>
+				<td> 6</td>
+				<td> 14</td>
+				<td> 51</td>
+				<td> 52</td>
+				<td> -1</td>
+				<td> 33</td>
+				<td> WLDWLL</td>
+			</tr>
+
+			<tr>
+				<td> 15</td>
+				<td> Leganes</td>
+				<td> 28</td>
+				<td> 9</td>
+				<td> 6</td>
+				<td> 13</td>
+				<td> 23</td>
+				<td> 34</td>
+				<td> -11</td>
+				<td> 33</td>
+				<td> LLDLLWL</td>
+			</tr>
+
+<tr>
+				<td> 16</td>
+				<td> Alaves</td>
+				<td> 29</td>
+				<td> 10</td>
+				<td> 1</td>
+				<td> 18</td>
+				<td> 26</td>
+				<td> 45</td>
+				<td> -19</td>
+				<td> 31</td>
+				<td>WLWLLL </td>
+			</tr>
+
+			<tr>
+				<td> 17</td>
+				<td> Levante</td>
+				<td> 29</td>
+				<td> 5</td>
+				<td> 12</td>
+				<td> 12</td>
+				<td> 25</td>
+				<td> 43</td>
+				<td> -18</td>
+				<td> 27</td>
+				<td> LLLDWW</td>
+			</tr>
+
+			<tr>
+				<td> 18</td>
+				<td> Las Palmas</td>
+				<td>29 </td>
+				<td> 5</td>
+				<td> 6</td>
+				<td> 18</td>
+				<td> 21</td>
+				<td> 58</td>
+				<td> -37</td>
+				<td> 21</td>
+				<td> LDDLLD</td>
+			</tr>
+
+			<tr>
+				<td> 19</td>
+				<td> Deportivo La Coruna</td>
+				<td> 29</td>
+				<td> 4</td>
+				<td> 8</td>
+				<td> 17</td>
+				<td> 26</td>
+				<td> 60</td>
+				<td> -34</td>
+				<td> 20</td>
+				<td>LDLDLD </td>
+			</tr>
+
+
+			<tr>
+				<td> 20</td>
+				<td>Malaga</td>
+				<td> 28</td>
+				<td> 3</td>
+				<td> 4</td>
+				<td> 21</td>
+				<td> 16</td>
+				<td> 45</td>
+				<td> -29</td>
+				<td> 13</td>
+				<td>LLLLLL </td>
+			</tr>
+		</table>
+	
+	
+</li>
+</ul>
+</li>
+</ul>
+<!--end of picture1-->
+
+
+		<!--for picture2-->	
+		<ul style="position: relative;top:-300px;left: 320px;">
+		   <li>
+			    <div class="section" ><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: red;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture2-->
+
+		<!--for picture3-->
+		<ul style="position: relative;top: -280px;">
+		   <li>
+			    <div class="section"><img src="images/messi/messi3.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: orange;opacity: 0.5;transition: 0.9s;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture3-->
+
+		<!--for picture4-->
+		<ul style="position: relative;left: 320px;top: -580px;">
+		   <li>
+			    <div class="section" style=""><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: gray;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture4-->
+
+</div><!--end of laliga_body-->
+
+
+<!--starting of ucl_body-->
+<div class="news_body" style="background-color: pink;width: 100%; height: 720px;">
+		<div class="title" id="news_title" style="background-color: darkgray;width: 100%;height: 50px;border-radius: 20px;">
+			Champions League
+		</div>
+		<p></p>
+
+				<!--for picture1-->	
+		<ul>
+		   <li>
+			    <div class="section" style="position: absolute;"><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul>
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: blue;position: relative;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture1-->
+
+		<!--for picture2-->	
+		<ul style="position: relative;top:-300px;left: 320px;">
+		   <li>
+			    <div class="section" ><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: red;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture2-->
+
+		<!--for picture3-->
+		<ul style="position: relative;top: -280px;">
+		   <li>
+			    <div class="section"><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: orange;opacity: 0.5;transition: 0.9s;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture3-->
+
+		<!--for picture4-->
+		<ul style="position: relative;left: 320px;top: -580px;">
+		   <li>
+			    <div class="section" style=""><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: gray;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture4-->
+		
+
+
+</div>
+<!--end of ucl_body-->
+
+<!--Starring of best_moments_bodys-->
+<div class="news_body" style="width: 100%; height: 720px;">
+		<div class="title" id="news_title" style="background-color: darkgray;width: 100%;height: 50px;border-radius: 20px;">
+			Some Unforgetable Moments
+		</div>
+		<p></p>
+		
+		<!--for picture1-->	
+		<ul>
+		   <li>
+			    <div class="section" style="position: absolute;"><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul>
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: blue;position: relative;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture1-->
+
+		<!--for picture2-->	
+		<ul style="position: relative;top:-300px;left: 320px;">
+		   <li>
+			    <div class="section" ><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: red;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture2-->
+
+		<!--for picture3-->
+		<ul style="position: relative;top: -280px;">
+		   <li>
+			    <div class="section"><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: orange;opacity: 0.5;transition: 0.9s;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture3-->
+
+		<!--for picture4-->
+		<ul style="position: relative;left: 320px;top: -580px;">
+		   <li>
+			    <div class="section" style=""><img src="images/formation/celebration2_crop.jpg" width="300" height="300">
+			       <div class="topic">Its goal celebration after might be</div>
+		        </div>
+		     <ul style="position: relative;top: -300px;">
+			   <li>
+		          <div class="details" style="width: 300px;height: 300px;background-color: gray;opacity: 0.5;">	
+		          </div>
+			   </li>
+		    </ul>
+    	   </li>
+        </ul>
+		<!--end of picture4-->
+</div>
+<!--end of best_moments_body-->
+		
+
+
+</div><!--end of main division-->
+
+
+<!--starting of adds division-->
+<div class="adds" style=" width:316px;height: 2590px;position: absolute;left: 840px;top: 780px;"> 
+	<img src="adds/gif/1.gif" width="316">
+	<p></p>
+	<img src="adds/picture/5.jpg" width="316">
+		<div style="width: 316px;height: 316px;background-color: crimson;">
+		<marquee direction="up" height="300"> This is a dummy website created by Prabin</marquee>
+	</div>
+	
+	<img src="adds/picture/1.jpg" width="316">
+	
+	
+	<img src="adds/picture/4.jpg" width="316" height="294">
+	
+	<img src="adds/picture/2.jpg" width="316">
+	
+	<img src="images/formation/2.png" width="316">
+	<img src="images/messi/messi1.jpg" width="316">
+	<img src="images/messi/messi3.jpg" width="316">
+
+
+</div>
+<!--ending of adds division-->
+
+<img src="adds/picture/last.png" style="position: absolute;top: 3400px;">
+
+
+</body>
+</html>

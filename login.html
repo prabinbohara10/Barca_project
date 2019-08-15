@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="icon" type="image/png" href="images/logo3.png">
+	<style type="text/css">
+		input {background-color:midnightblue; outline: 0;border: 0 ;border-bottom: 2px darkslateblue solid;}
+		.main_form{color: lightgoldenrodyellow;line-height: 25px;}
+		input[type="text"]{
+color: cadetblue;
+}
+	</style> 
+</head>
+<body style="background-image: url(background/4.jpg);background-size: cover;opacity: 0.9;">
+	<div class="main_form" style="width: 250px;height: 450px;position: absolute;left: 570px;top: 150px; ">
+
+		<form method="post" action="after_login.html">
+			<fieldset style="background-color: midnightblue; border:0;padding: 20px;" >
+				<div style="text-align: center;font-size: 20px;color: brown;"> &nbsp Login Here</div>
+				<legend align="center"><img style="border-radius: 30px;" src="images/account.png" width=50 height=50></legend>
+				<label for="name">Username</label><br>
+					<input  type="text" name="name" id="name" size="25" placeholder="Your username" required><br>
+				<label for="password">Password</label>	<br>
+					<input type="password" name="password" id="password" size="25" placeholder="Your password" required><br>
+					<div style="text-align: center;padding: 10px"> <input type="checkbox" name="rem_password" id="rem_password">
+				<label for="rem_password"><span style="position: relative;top: -2px;"> Remember me</span></label>	
+				</div>	
+				
+					<input style="background-color:blue; width:210px;height: 30px;border-radius: 10px;text-align: center;color: white;
+					font-size: 15px;border: 0;padding-bottom: 5px;" type="submit" value="Login">
+				
+		    <div style="width: 210px;height: 10px;"></div>		
+				<div style="background-color: black; width: 210px;height: 30px; border-radius: 10px;text-align: center;"><a href="create_account.html" style="text-decoration: none;"> Create new account</a>
+				</div>
+				<div style="padding: 10px;">Forget Password</div>
+			</fieldset>
+		</form>
+		
+	</div>
+</body>

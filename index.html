@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCB</title>
+	<link rel="icon" type="image/png" href="images/logo3.png">
+	<style type="text/css">
+	
+	*{outline: none;}
+		body{ margin: 0;font-family:Verdana;font-size: 20px;}
+
+		.navbar{width:100%;height: 75px; margin:0;position: fixed;left:0 ;top :75px;background-image: url(images/logo2.jpg);background-size: cover;}
+	    ul{ list-style-type: none ;margin: 0;padding: 0;width: 100%;}
+		ul li{float: left; padding:20px 50px; height: 35px;border-radius: 100px;}
+		ul li a{text-decoration: none;color: white;font-style: bold;}
+		ul li ul li{float: none;}
+		
+
+		.navbar ul li ul {display: none;}
+		.navbar ul li:hover{background-color: black;height: 35px;border-radius: 0px;transition:1.2s;}
+		.navbar ul>li:hover{border-bottom:  5px solid red;}
+		.navbar ul li:hover> ul{transition: 0.9s;display: block;}
+		
+
+		.about_hover >li{width:150px;padding-left: 25px;padding-top: 20px;}
+		.about_hover>li:hover{width: 84px;}
+	
+		
+
+		
+		.about_hover_playername li{padding:10px;font-size: 15px;width:230px;}
+
+
+</style>
+
+<script type="text/javascript">
+	function after_about1_fun() {
+		var after_about1_var=document.getElementById('after_about');
+		after_about1_var.style.display='block';
+		}
+
+		function after_about2_fun() {
+			var after_about2_var=document.getElementById('after_about');
+			after_about2_var.style.display='none';
+		}
+
+	function after_about_fun () {
+		var after_about_var1=document.getElementById('after_about');
+		after_about_var1.style.display='none';
+		}
+
+	function mousewheel() {
+		var mousewheel_var=document.getElementById('after_about');
+		mousewheel_var.style.display='none';
+
+		}	
+</script>
+
+
+</head>
+<body onmousewheel ="mousewheel()">
+
+	<!--for details-->
+	<div style="width: 100%; height:75px; background-image: url(images/logo2.jpg);position: relative;opacity: 0.9;">
+		<span style="position: relative;left: 200px;top: 20px;color:white ">NEXT MATCH</span>
+		<span style="position: relative;left: 230px;top: 20px;color: yellow;">- Barca vs Roma (Champions League)</span>
+		
+		<span style="position:relative; left:390px;top: 20px;font-style: bold;"><a style="text-decoration: none;color: orange;" href="sponsor.html">Barca Sponsors</a></span>
+
+	</div>
+	<div style="background-color: silver;width: 100%;height: 75px;z-index: 2;position: absolute;opacity: 0.3;"></div>
+		
+<!--for navigation bar-->
+<div class="navbar" style="z-index: 3;opacity: 0.5;">
+	<!--<hr<!-- style="position: fixed;top:137px;width:100%;height: 2px;background-color: yellow; opacity: 0.6;">-->
+    <ul >
+	   <a href="home.html" target="new_frame"> <li><a href="#"> Home</a></li></a>
+		<li onmouseover="after_about1_fun()" onmouseout="after_about2_fun()"><a href="#" >About</a>
+		    <ul id="after_about" style="position: relative;top: -40px;width: 50px;">
+		    		  <div  class="about_hover" style="width:159px; height: 300px;transition: 0.9s;position: absolute;left: -50px;top:75px;border-radius: 10px;background-color: cadetblue;">
+					   
+					
+			    <li ><a href ="#"> Club</a>
+			    	<!--For about_club-->
+			    	<ul>
+			    		
+			    		<div class="about_hover_club" style="position: absolute;left: 920px;top: 550px;display: block;">
+			    			<img src="images/main1.png" style="width: 235px;height: 177px;">
+			    		</div>
+						
+					
+					</ul>
+			    </li>
+			    <!--End of about_club-->
+
+				<li><a href="#">Stadium</a>
+					<!--For about_stadium-->
+					<ul>
+			    		<div class="about_hover_club" style="width:235px; height:177px;position: absolute;left: 920px;top: 550px;display: block;">
+			    			<img src="images/main2.png" style="opacity: 1;width: 235px;height: 177px;">
+			    		</div>
+						
+					
+					</ul>
+
+
+
+				</li>
+				<!--End of about_stadium-->
+				<li><a href="#"> Players</a>
+
+					<!--For about_playername-->
+				  	<ul>
+			    		<div class="about_hover_club" style="width:235px; height:177px;position: absolute;left: 920px;top: 550px;display: block;">
+			    			<img src="images/main3.png" style="opacity: 1;width: 235px;height: 177px;">
+			    		</div>
+						
+					
+					</ul>
+				</li><!--End of about_playername-->
+				<li><a href="#"> Formation</a>
+					<ul>
+			    		<div class="about_hover_club" style="width:235px; height:177px;position: absolute;left: 920px;top: 550px;display: block;">
+			    			<img src="images/main4.png" style="opacity: 1;width: 235px;height: 177px;">
+			    		</div>
+						
+					
+					</ul>
+
+				</li>
+				
+				</div>	<!--end of navigation bar division-->
+		    </ul>
+     </li>
+	<li><a href="#"><a href="players.html"> Players</a></a></li>
+	<li><a href="#"><a href="formation.html">  Formation</a></a></li>	
+    <li><a href="#"><a href="gallery.html"> Gallery</a></a></li>
+	<li><a href="#"><a href="stadium.html">Stadium</a></a></li>
+	<li><a href="#"><a href="login.html"> Register</a></a></li>
+
+	</ul>
+	
+</div>
+<iframe style="position: absolute; top:150px; z-index: 1;outline: none;border:none;" src="home.html" name="new_frame" width="1500px" height="1000px" >not supported</iframe>
+
+
+
+
+
+
+</body>
+
+
+</html>

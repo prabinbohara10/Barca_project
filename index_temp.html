@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCB</title>
+	<style type="text/css">
+		body{ margin: 0;font-family:Verdana;font-size: 20px;}
+
+		.navbar{width:100%;height: 75px; margin:0;background-color: red;position: fixed;left:0 ;top :0;}
+	    ul{ list-style-type: none ;margin: 0;padding: 0;width: 100%;}
+		ul li{float: left; padding:20px 50px; height: 35px; }
+		ul li a{text-decoration: none;}
+		ul li ul li{float: none;}
+
+		.navbar ul li ul {display: none;}
+		.navbar ul li:hover{background-color: black;height: 35px;}
+		.navbar ul li:hover> ul{transition: 0.9s;display: block;}
+		
+
+		.about_hover li{width:150px;}
+
+		
+		.about_hover_playername li{padding:10px;font-size: 15px;width:230px;}
+
+
+</style>
+
+<script type="text/javascript">
+	function after_about1_fun() {
+		var after_about1_var=document.getElementById('after_about');
+		after_about1_var.style.display='block';
+		}
+
+		function after_about2_fun() {
+			var after_about2_var=document.getElementById('after_about');
+			after_about2_var.style.display='none';
+		}
+
+	function after_about_fun () {
+		var after_about_var1=document.getElementById('after_about');
+		after_about_var1.style.display='none';
+		}
+</script>
+
+
+</head>
+<body>
+		
+<!--for navigation bar-->
+<div class="navbar" style="z-index: 2;">
+    <ul>
+	    <li><a href="#">Home</a></li>
+		<li onmouseover="after_about1_fun()" onmouseout="after_about2_fun()"><a href="#" >About</a>
+		    <ul id="after_about">
+		    		  <div  class="about_hover" style="width:1250px; height: 350px;background-color: aquamarine;transition: 0.9s;position: absolute;left: 0;top:75px;border:5px inset cadetblue ;border-radius: 20px;padding-top: 100px; ">
+					    <div style="width: 247px; height:80px;background-color: green;position: absolute;top: 0;border-top-left-radius: 12px;"></div>
+					    <div class="about_hover_club" style="background-color:red;width:1000px; height:450px;position: absolute;left: 250px;top: 0;border-radius:20px 20px 20px 0;">
+					    	 <div style="background-color: green;width: 1000px;height: 80px;border-top-right-radius:15px;position: absolute;left: 0px;top: 0; "></div>
+					    	 <div>
+					    	 <img src="images/logo1.jpg" height="370" width="1000" style="position: relative;top: 80px;border-bottom-right-radius: 15px;">
+					    </div>
+					</div>
+
+			    <li><a href ="#"> Club</a>
+			    	<!--For about_club-->
+			    	<ul>
+			    		<div class="about_hover_club" style="background-color:red;width:1000px; height:450px;position: absolute;left: 250px;top: 0;border-radius:20px 20px 20px 0;">
+						<div style="background-color: green;width: 1000px;height: 80px;border-top-right-radius:15px; "></div>
+							<div style="background-image: url(images/club/club1.jpg);background-size: contain;width: 1000px;height: 370px;">
+							<li>Sponsors</li>
+							<li>Board of director</li>
+							<li>Strategic Plan</li>
+
+						</div>
+					</ul>
+			    </li>
+			    <!--End of about_club-->
+
+				<li><a href="#">Stadium</a>
+					<!--For about_stadium-->
+					<ul>
+					<div class="about_hover_club" style="background-color:red;width:1000px; height:450px;position: absolute;left: 250px;top: 0;border-radius:20px 20px 20px 0;">
+						<div style="background-color: green;width: 1000px;height: 80px;border-top-right-radius:15px; "></div>
+						<
+						<li>ksdfr</li>
+						<li>df</li>
+					
+</div>
+</ul>
+
+
+
+				</li>
+				<!--End of about_stadium-->
+				<li><a href="#"> Players Name</a>
+
+					<!--For about_playername-->
+				  	<ul>
+					<div class="about_hover_playername" style="background-color:red;width:1000px; height:450px;position: absolute;left: 250px;top: 0;border-radius:20px 20px 20px 20px;">
+						<div style="background-color: green;width: 1000px;height: 80px;border-top-right-radius:15px; "></div>
+							
+							<div style="background-color: orange; width: 250px;height: 370px;float: left;">
+					    <li><a href="#"><a href="100.html"><img src="profile.jpg" width="40px" height="50px"><span style="position: relative;top: -10px;">Andres Ineista(C)</span></a></a></li>
+                		<li><a href="#"><a href="messi.html" target="new_frame" onclick="after_about_fun()">Lionel Messi</a></a></li>   
+		                <li><a href="#">Luis Suarez </a></li>
+	                    <li><a href="#"> Ousmane Dembele</a></li>
+	                	<li><a href="#"> Sergio Busquets</a></li>
+	                   	<li><a href="#"> Gerrad Duelofeo</a></li>
+	                   </div>
+	                   	<div style="background-color: pink; width: 250px;height: 370px; float: left;">
+	 	                <li><a href="#"> Arda Turan</a></li>
+		                <li><a href="#">Paco Alacer</a></li>
+	                  	<li><a href="#">Sergio Roberto</a></li>
+		                <li><a href="#">Rafinha</a></li>
+		                <li><a href="#">Paulinho</a></li>
+                        <li><a href="#">Denis Suarez</a></li>
+                    </div>
+                    	<div style="background-color: orange; width: 250px;height: 370px;float: left;">
+		                <li><a href="#">Andre Gomes</a></li>
+		                <li><a href="#">Ivan Rakitic</a></li>
+		                <li><a href="#">Samuel Umtiti</a></li>
+		                <li><a href="#">Gerard Pique</a></li>
+	                   	<li><a href="#">Nelson Semedo</a></li>
+		                <li><a href="#">Aleix Vidal</a></li>
+		            </div>
+		            	<div style="background-color: pink; width: 250px;height: 370px;float: left;border-bottom-right-radius: 15px;">
+		                <li><a href="#">Lucas Digne</a></li>
+		                <li><a href="#">Javier Mascherano</a></li>
+		                <li><a href="#">Jordi Alba</a></li>
+		                <li><a href="#">Thomas Vermaelen</a></li>
+		                <li><a href="#">Jasper Cillessen</a></li>
+		                <li><a href="#">Marc-Andre ter Stegen</a></li>
+		            </div>
+
+				    </div>
+					</ul>
+				</li><!--End of about_playername-->
+				<li><a href="#"> Formation<a></li>
+				
+				</div>	<!--end of navigation bar division-->
+		    </ul>
+     </li>
+	<li><a href="#">Sports</a></li>
+	<li><a href="#">News</a></li>	
+    <li><a href="#">Gallery</a></li>
+	<li><a href="#">Videos</a></li>
+	<li><a href="#">Register</a></li>
+	</ul>
+</div>
+
+<iframe style="background-color: pink;position: absolute;left:0;top:74px;z-index: 1;" src="" name="new_frame" width="1500px" height="1000px" >not supported</iframe>
+
+
+
+</body>
+
+
+</html>
